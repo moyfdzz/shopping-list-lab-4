@@ -1,7 +1,17 @@
-ul {
+.item {
     list-style-type: none;
+    border: 1px solid #ccc;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
-.checked {
+.itemName {
+    color: gray;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.crossed {
     text-decoration: line-through;
 }

@@ -21,7 +21,7 @@ function addItemFunctionality() {
 
 function checkButtonFunctionality() {
     $('.itemsList').on('click', '.checkButton', function(event) {
-        $(this).parent().toggleClass('checked');
+        $(this).prev().toggleClass('crossed');
     })
 }
 
