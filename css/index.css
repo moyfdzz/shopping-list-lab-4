@@ -1,15 +1,26 @@
 .item {
     list-style-type: none;
     border: 1px solid #ccc;
-    width: 30%;
+    width: 40%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin: 10px;
 }
 
 .itemName {
     color: gray;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.itemsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-inline-start: 0px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .crossed {
